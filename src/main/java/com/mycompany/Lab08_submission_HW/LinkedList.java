@@ -1,5 +1,5 @@
 
-package com.mycompany.singlelinkedlist;
+package com.mycompany.Lab08_submission_HW;
 
 class Node {
    public int data;
@@ -79,4 +79,22 @@ class LinkedList {
          }
       }
    }
-}
+   
+   public void printList(){
+       while(head!=null){
+           System.out.println(head.data);
+           head = head.next;
+       }
+          
+    }
+   
+   public int getSum(){
+    int sum = 0;
+    while(head!=null){
+        sum = sum+head.data;
+        head = head.next;
+       } 
+       return sum;
+   }
+   
+   }
