@@ -43,7 +43,7 @@ public class Main {
        LinkedList primeNumsWith3 = new LinkedList();
        
        
-       populateLists(37, primeNums, primeNumsWith3);
+       populateLists(43, primeNums, primeNumsWith3);
        System.out.println(primeNumsWith3.getSum());
        
     }
